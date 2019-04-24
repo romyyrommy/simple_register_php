@@ -1,0 +1,45 @@
+body{
+	font-family: 'RalewayRegular';
+}
+header{
+	background-color: #D0FF00;
+	min-height: 40px;
+	padding: 1px 0 20px 0;
+}
+.log{
+	float: left;
+}
+.log li{
+	list-style-type: none;
+}
+.log a{
+	text-decoration: none;
+	color: #464646;
+	font-size: 20px;
+}
+.singbut{
+	float: right;
+}
+.singbut a{
+	text-decoration: none;
+	color: #464646;
+	font-size: 20px;
+}
+.singbut a:first-child{
+	padding-right: 20px;
+}
+.singbut li{
+	display: inline-block;
+}
+.center {
+    margin: 17% 20% 0% 25%;
+    padding: 10px;
+    background-color: #FFDD00;
+}
+.center h2{
+	text-align: center;
+	margin: 20px;
+	color: #f0f0f0;
+	font-size: 70px;
+	font-family: 'RobotoBold';
+}
