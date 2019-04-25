@@ -18,5 +18,20 @@
 			</div>
 		</ul>	
 	</header>
+	<section>
+		<div class="centersing">
+			<form action="" method="POST">
+				<input type="text" name="username" placeholder="Username">
+				<input type="text" name="firstname" placeholder="First name">
+				<input type="text" name="lastname" placeholder="Last name">
+				<input type="email" name="email" placeholder="Email">
+				<input type="password" name="password" placeholder="Password">
+				<input type="password" name="password_twice" placeholder="Password also">
+				<div class="doregit">
+					<input type="button" name="do_register" value="Register">
+				</div>
+			</form>
+		</div>
+	</section>
 </body>
 </html>

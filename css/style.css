@@ -43,3 +43,28 @@ header{
 	font-size: 70px;
 	font-family: 'RobotoBold';
 }
+.centersing {
+    margin: 5% 35% 0% 35%;
+    padding: 30px 0 20px 50px;
+    background-color: #FFDD00;
+}
+.centersing input{
+	float: center;
+	margin: 20px;
+	display: block;
+	width: 250px;
+	height: 25px;
+}
+.doregit input {
+	color: #f0f0f0;
+	font-size: 18px;
+	letter-spacing: 5px;
+	font-family: 'RalewayRegular';
+    background-color: #0899FF;
+    height: 42px;
+
+}
+.doregit input:hover{
+	cursor: pointer;
+	background-color: #0089D8;
+}
