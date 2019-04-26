@@ -49,11 +49,16 @@ header{
     background-color: #FFDD00;
 }
 .centersing input{
-	float: center;
+	font-family: 'RalewayRegular';
+	color: #0E70A9;
+	font-size: 20px;
 	margin: 20px;
 	display: block;
 	width: 250px;
-	height: 25px;
+	height: 35px;
+}
+.centersing input:hover{
+	color: #0D9DD8;
 }
 .doregit input {
 	color: #f0f0f0;
