@@ -1,4 +1,3 @@
-<!--Əsas səhifə yaradırıq-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,9 +19,9 @@
 		</ul>	
 	</header>
 	<section>
-		<div class="center">
+		<div class="center_suc">
 			<h2>
-				Welcome to my site
+				Register succes
 			</h2>
 		</div>
 	</section>

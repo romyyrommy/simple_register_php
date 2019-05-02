@@ -1,9 +1,8 @@
-<!--Əsas səhifə yaradırıq-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Hi users</title>
+	<title>Register</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fonts.css">
 </head>
@@ -11,19 +10,19 @@
 	<header>		
 		<ul>
 			<div class="log">
-				<li><a href="index.php">Logo</a></li>
+				<li>
+					
+				</li>
+				<li><a href="main.php">Main</a></li>
 			</div>
 			<div class="singbut">
-				<li><a href="login.php">Log in</a></li>
-				<li><a href="register.php">Sing up</a></li>
+				<li><a href="logaut.php">Exit</a></li>
 			</div>
 		</ul>	
 	</header>
 	<section>
-		<div class="center">
-			<h2>
-				Welcome to my site
-			</h2>
+		<div class="centersing">
+			Hi user
 		</div>
 	</section>
 </body>
