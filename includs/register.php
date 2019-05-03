@@ -1,5 +1,5 @@
 <?php 
-require_once("connect.php");
+require_once("../connect.php");
 //Bu faylımızda qeydiyyat aparacıq və qeydiyyat skripti yazacıq
 
 $data= $_POST;
@@ -82,14 +82,14 @@ mysqli_close();
 <head>
 	<meta charset="UTF-8">
 	<title>Register</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/fonts.css">
 </head>
 <body>
 	<header>		
 		<ul>
 			<div class="log">
-				<li><a href="index.php">Logo</a></li>
+				<li><a href="../index.php">Logo</a></li>
 			</div>
 			<div class="singbut">
 				<li><a href="login.php">Log in</a></li>

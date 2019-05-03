@@ -1,13 +1,13 @@
 <?php 
-require_once("connect.php");
+require_once("../connect.php");
  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Register</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/fonts.css">
 </head>
 <body>
 	<header>		
@@ -23,7 +23,7 @@ require_once("connect.php");
 	<section>
 		<div class="profile">
 			<div class="img">
-				<img src="img/Trustees.jpg" alt="#">
+				<img src="../img/Trustees.jpg" alt="#">
 			</div>
 			<div class="info">
 				<?php 

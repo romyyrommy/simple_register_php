@@ -1,5 +1,5 @@
 <?php 
-require_once("connect.php");
+require_once("../connect.php");
 
 $data= $_POST;
 if (isset($data['do_enter'])) 
@@ -31,7 +31,7 @@ if (isset($data['do_enter']))
 			elseif ($pswCheck == true) 
 			{
 				$_SESSION['username'] = $login;
-				header("Location: profile.php");
+				header("Location: main.php");
 			}
 			else
 			{
@@ -53,14 +53,14 @@ if (isset($data['do_enter']))
 <head>
 	<meta charset="UTF-8">
 	<title>Register</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/fonts.css">
 </head>
 <body>
 	<header>		
 		<ul>
 			<div class="log">
-				<li><a href="index.php">Logo</a></li>
+				<li><a href="../index.php">Logo</a></li>
 			</div>
 			<div class="singbut">
 				<li><a href="login.php">Log in</a></li>

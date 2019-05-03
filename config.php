@@ -1,7 +1,7 @@
 <?php 
 //Bu fayla database məlumatları yerləşdirirk
 define("HOST", "localhost");
-define("USER", "rommy");
-define("PASS", "r5576906n");
+define("USER", "root");
+define("PASS", "*");
 define("DB", "qeydiyyat");
 ?>

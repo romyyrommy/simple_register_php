@@ -14,8 +14,8 @@
 				<li><a href="index.php">Logo</a></li>
 			</div>
 			<div class="singbut">
-				<li><a href="login.php">Log in</a></li>
-				<li><a href="register.php">Sing up</a></li>
+				<li><a href="includs/login.php">Log in</a></li>
+				<li><a href="includs/register.php">Sing up</a></li>
 			</div>
 		</ul>	
 	</header>
